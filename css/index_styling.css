@@ -1,0 +1,20 @@
+* {
+    /* Suppress browser defaults and select alt box model */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-primary);
+}
+main{
+    width: 100%;
+}
+main .intro{
+    width: 100%;
+}
+.intro_background {
+    height: 100vh;
+    background-image: url('./assets/img/intro-picture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
