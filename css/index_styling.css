@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     --font-color-primary:#F7EDCE;
+    --font-color-secondary: #fff700;
 }
 
 .intro {
@@ -98,7 +99,7 @@ h1{
     width: 200px;
     height: 100px;
     font-size: 32px;
-    border-radius: 15%;
+    border-radius: 10%;
     background-color: var(--font-color-primary);
     transition: background .5s ease;
 
@@ -110,18 +111,127 @@ h1{
 }
 
 .photos {
-    width: 100%;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    overflow: hidden;
+    background-size: contain;
+    position: relative;
+
 }
 
-.photos .background_img_for_photos_slide {
-    width: 100vw;
-    height: 10vh;
-    background-size: contain; /* Ensure the background image fits within the container without being stretched */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-position: center; /* Center the background image within the container */
+.photos .backgroung_img_for_photos_slide {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+}
+
+.photos h2 {
+    font-size:50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    color: var(--font-color-primary);
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photos .attraction1{
+    
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    border: 8px solid #000;
+    border-radius: 30px;
+    padding: 0px;
+
+}
+
+.photos .attraction1desctiption {
+    position: absolute;
+    top: 66%;
+    left: 12%;
+    border: 3px solid #000;
+    border-radius: 30px;
+    padding: 0px;
+    color: var(--font-color-secondary);
+    font-size: 50px;
+    padding: 5px;
+
+}
+
+.photos .attraction2description {
+    position: absolute;
+    top: 66%;
+    left: 44.5%;
+    border: 3px solid #000;
+    border-radius: 30px;
+    padding: 0px;
+    color: var(--font-color-secondary);
+    font-size: 50px;
+    padding: 5px;
+}
+
+.photos .attraction3description {
+    position: absolute;
+    top: 66%;
+    left: 76.5%;
+    border: 3px solid #000;
+    border-radius: 30px;
+    padding: 0px;
+    color: var(--font-color-secondary);
+    font-size: 50px;
+    padding: 5px;
+}
+
+
+.photos .attraction2{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    border: 8px solid #000;
+    border-radius: 30px;
+    padding: 0px;
+
+}
+
+
+.photos .attraction3{
+    
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    border: 8px solid #000;
+    border-radius: 30px;
+    padding: 0px;
+
+}
+
+.photos .button-style {
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    width: 200px;
+    height: 100px;
+    font-size: 32px;
+    border-radius: 10%;
+    background-color: var(--font-color-primary);
+    transition: background .5s ease;
+}
+
+.photos .button-style:hover {
+    background-color: rgb(67, 75, 230);
+    color: var(--font-color-primary);
+}
+
+.attractions {
+    overflow: hidden;
+    background-size: contain;
+    position: relative;
+}
+
+.attractions .slide4img {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
 }
