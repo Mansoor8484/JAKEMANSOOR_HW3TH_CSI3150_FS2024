@@ -235,3 +235,184 @@ h1{
     height: 100vh;
     background-size: contain;
 }
+
+.attractions h2 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 55px;
+    color: var(--font-color-primary);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.attractions .attractions-description {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    height: 1000px;
+    width: 1100px;
+}
+
+.attractions .attractions-description h3 {
+    font-size: 50px;
+    color: var(--font-color-primary);
+    font-weight: 800;
+    
+}
+
+.attractions .attractions-description p {
+    font-size: 30px;
+    color: var(--font-color-primary);
+    padding: 25px;
+    font-weight: 600;
+}
+
+.statistics {
+    /* overflow: hidden; */
+    background-size: contain;
+    position: relative;
+}
+
+.statistics .statistics-img {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+}
+
+.statistics .statistical-facts {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.statistics .statistical-facts h3 {
+    padding: 70px 100px;
+    justify-content: center;
+    align-items: center;
+    background-color:#000;
+    height: 300px;
+    width: 300px;
+    margin: 0px 100px;
+    border-radius: 50%;
+    color: var(--font-color-secondary);
+}
+
+.statistics .statistical-facts h3 span{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    color: var(--font-color-primary);
+}
+
+.customer-experience {
+    background-size: contain;
+    position: relative;
+}
+
+.customer-experience .customer-experience-background-img {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+}
+
+
+.customer-experience .customer-img {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    border: 8px solid #000;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.customer-experience p {
+    position: absolute;
+    font-size: 30px;
+    color: var(--font-color-primary);
+    top: 70%;
+    left: 15%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    padding: 45px;
+}
+
+.contact-me {
+    background-size: contain;
+    position: relative;
+}
+
+.contact-me .contact-background-img {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-me .contacts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color-primary);
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-me .contacts h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contact-me .contacts p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.contact-me .contacts .icons {
+    margin: 20px 0;
+}
+
+.contact-me .contacts .icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: var(--font-color-primary);
+}
+
+.contact-me-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between input fields */
+    max-width: 400px; /* Optional: Limit the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.contact-me-inputs label {
+    font-weight: bold;
+}
+
+.contact-me-inputs input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
